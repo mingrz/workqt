@@ -1,0 +1,44 @@
+﻿Build started 2017/8/13 12:59:11.
+     1>Project "F:\Android_Code\TrueSpeed-weather\TrueSpeed.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\TrueSpeed.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Uic'ing ui\welcomedialog.ui...
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I. /Icore\ui /Icore /Icore\port /I./core/plot /Icore\rawdata /ID:\Qt\Qt5.5.0\5.5\msvc2010\include /ID:\Qt\Qt5.5.0\5.5\msvc2010\include\QtWidgets /ID:\Qt\Qt5.5.0\5.5\msvc2010\include\QtGui /ID:\Qt\Qt5.5.0\5.5\msvc2010\include\QtANGLE /ID:\Qt\Qt5.5.0\5.5\msvc2010\include\QtNetwork /ID:\Qt\Qt5.5.0\5.5\msvc2010\include\QtXml /ID:\Qt\Qt5.5.0\5.5\msvc2010\include\QtCore /Idebug /I. /I"D:\Qt\Qt5.5.0\5.5\msvc2010\mkspecs\win32-msvc2010" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_XML_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Debug\moc_mainwindow.cpp Debug\moc_welcomedialog.cpp core\mainwindow.cpp "core\ui\ui-util.cpp" core\ui\welcomedialog.cpp main.cpp -w34100 -w34189 -w44996 
+         moc_mainwindow.cpp
+         moc_welcomedialog.cpp
+         mainwindow.cpp
+         ui-util.cpp
+         welcomedialog.cpp
+     1>core\ui\welcomedialog.cpp(311): warning C4100: 'checked' : unreferenced formal parameter
+     1>core\ui\welcomedialog.cpp(316): warning C4100: 'checked' : unreferenced formal parameter
+         main.cpp
+         Generating Code...
+     1>f:\android_code\truespeed-weather\core\ui\welcomedialog.cpp(176): warning C4700: uninitialized local variable 'iRangS' used
+     1>f:\android_code\truespeed-weather\core\ui\welcomedialog.cpp(176): warning C4700: uninitialized local variable 'iFixed' used
+     1>f:\android_code\truespeed-weather\core\ui\welcomedialog.cpp(176): warning C4700: uninitialized local variable 'iRangE' used
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\TrueSpeed.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.5.0\5.5\msvc2010\lib /LIBPATH:D:/qt/qt5.5.0/5.5/msvc2010/lib /LIBPATH:D:\Qt\Qt5.5.0\5.5\msvc2010\lib D:\Qt\Qt5.5.0\5.5\msvc2010\lib\qtmaind.lib shell32.lib D:/qt/qt5.5.0/5.5/msvc2010/lib\Qt5Cored.lib D:\Qt\Qt5.5.0\5.5\msvc2010\lib\Qt5Widgetsd.lib D:\Qt\Qt5.5.0\5.5\msvc2010\lib\Qt5Guid.lib D:\Qt\Qt5.5.0\5.5\msvc2010\lib\Qt5Networkd.lib D:\Qt\Qt5.5.0\5.5\msvc2010\lib\Qt5Xmld.lib D:\Qt\Qt5.5.0\5.5\msvc2010\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\TrueSpeed.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Android_Code\TrueSpeed-weather\debug\TrueSpeed.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\CRingBuffer.obj
+         Win32\Debug\csvpoc.obj
+         Win32\Debug\laserparser.obj
+         Win32\Debug\moc_mainwindow.obj
+         Win32\Debug\moc_tcpclient.obj
+         Win32\Debug\moc_welcomedialog.obj
+         Win32\Debug\main.obj
+         Win32\Debug\mainwindow.obj
+         Win32\Debug\tcpclient.obj
+         "Win32\Debug\ui-util.obj"
+         Win32\Debug\welcomedialog.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         LINK : debug\\TrueSpeed.exe not found or not built by the last incremental link; performing full link
+         TrueSpeed.vcxproj -> F:\Android_Code\TrueSpeed-weather\debug\TrueSpeed.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"debug\\TrueSpeed.exe;#1" /manifest Win32\Debug\TrueSpeed.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\TrueSpeed.unsuccessfulbuild".
+         Touching "Win32\Debug\TrueSpeed.lastbuildstate".
+     1>Done Building Project "F:\Android_Code\TrueSpeed-weather\TrueSpeed.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.91
